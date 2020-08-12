@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/ScrapLabel.css';
 
+/**
+ * 스크랩 필터 라벨
+ */
+
 function ScrapLabel(props) {
 
     return (

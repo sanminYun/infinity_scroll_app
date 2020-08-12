@@ -3,6 +3,11 @@ import '../styles/PictureList.css';
 import Author from "./Author";
 import Picture from "./Picture";
 
+
+/**
+ * 이미지 카드 리스트 컨테이너 컴포넌트
+ */
+
 function PictureList(props) {
 
     return (

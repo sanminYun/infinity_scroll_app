@@ -1,8 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Author from "./components/Author";
-import Picture from "./components/Picture";
 import PictureList from "./components/PictureList"
 import ScrapLabel from "./components/ScrapLabel";
 
@@ -53,7 +50,7 @@ function App() {
 
     //When Component did mount
     useEffect(() => {
-       // myStorage.clear();
+        //myStorage.clear();
         window.addEventListener('scroll', handleScroll, true);
         loadDataFromStorage();
     }, [])
@@ -65,7 +62,7 @@ function App() {
     }, [page]);
 
     const loadDataFromStorage = () => {
-        if(myStorage.getItem('scrap') != undefined) {
+        if(myStorage.getItem('scrap') !== null) {
             setScrap(JSON.parse(myStorage.getItem('scrap')));
         }
     }
@@ -81,7 +78,7 @@ function App() {
     const toggleScrap = (id) => {
        // console.log("스크랩 :",id);
         setScrap(prev => {
-            if(prev[id] == undefined){
+            if(prev[id] === undefined){
                 let nextScrap = {...prev, [id]:true};
                 saveDataToStorage(nextScrap);
                 return nextScrap;
