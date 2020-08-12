@@ -2,5 +2,5 @@
  Pictures feed app with infinity scrolling
 
 
-#Proxy
+# Proxy
 CRA의 proxy기능을 사용 중 입니다.
