@@ -2,6 +2,7 @@
   "name": "infinity_scroll",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://s3.ap-northeast-2.amazonaws.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

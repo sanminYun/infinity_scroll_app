@@ -1,0 +1,25 @@
+.author-container {
+    display: flex;
+    align-items: center;
+}
+
+.ic_avatar_cat {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.author {
+    width:100%;
+    display: inline-block;
+    height: 19px;
+    font-family: AppleSDGothicNeo;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.74);
+    margin:0 0 0 10px;
+}

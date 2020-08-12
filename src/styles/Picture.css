@@ -1,0 +1,30 @@
+.Rectangle {
+    width: 268px;
+    height: 268px;
+    border-radius: 10px;
+}
+
+.picture-container {
+    /*margin: 10px;*/
+    margin-top: 10px;
+    position: relative;
+}
+
+.scrap {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor:pointer;
+}
+
+.on-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.blue {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}

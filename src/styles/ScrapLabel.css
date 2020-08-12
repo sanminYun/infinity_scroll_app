@@ -1,0 +1,26 @@
+.scrap-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.text {
+    display: inline-block;
+    width: 244px;
+    height: 19px;
+    font-family: AppleSDGothicNeo;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #424242;
+    margin-left: 6px;
+}
+
+.bt_checkbox_checked {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
