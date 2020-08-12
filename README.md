@@ -4,3 +4,8 @@
 
 # Proxy
 CRA의 proxy기능을 사용 중 입니다.
+
+
+# Install
+yarn install
+yarn start
